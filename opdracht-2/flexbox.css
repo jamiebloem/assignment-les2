@@ -1,3 +1,33 @@
-/* ======================================================
-   OEFENEN MET FLEXBOX
-========================================================= */
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Bullets nog weg, links uitlijnen en laatste woord rechts */
+.three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+/* Test moet naar het midden */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
