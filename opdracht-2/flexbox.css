@@ -6,33 +6,25 @@
 
 .two {
     display: flex;
-        flex-direction: row;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.three li {
+div ul{
+    padding:10px;
+}
+
+div ul li{
     display: inline;
-    /*flex-direction: column;*/
-    /*justify-content: space-between;*/
-    /*align-items: flex-start;*/
-    }
+    padding: 20px;
+}
 
-/*.three div {*/
-/*    align-items: end;*/
-/*}*/
-
-
-
-/*div {*/
-/*    flex-direction: end;*/
-
-/*}*/
-/*.three div {*/
-/*    flex-direction: row;*/
-/*    justify-content: end;*/
-/*}*/
-
-/* Test moet naar het midden */
+.three{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
 form {
     display: flex;
@@ -42,45 +34,16 @@ form {
     margin: 20px 300px;
     padding: 50px;
     position: relative;
-
 }
 
-/*div {*/
+article{
+    width: 280px;
+}
 
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-
-
-/*form {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-
-/*    position: relative;*/
-/*}*/
-
-
-/*}*/
-
-/*.five {*/
-
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    align-items: stretch;*/
-/*}*/
-
-.five {
-    flex-grow: 4;
-    display: inline-block;
+.five{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
-
-}
-
-article {
-    display: inline-block;
-    width: 360px;
+    justify-content: space-around;
+    background-color: orange;
 }
