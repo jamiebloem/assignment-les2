@@ -6,28 +6,81 @@
 
 .two {
     display: flex;
-    flex-direction: row;
+        flex-direction: row;
     justify-content: space-between;
 }
 
-/* Bullets nog weg, links uitlijnen en laatste woord rechts */
-.three ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.three li {
+    display: inline;
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
     }
 
+/*.three div {*/
+/*    align-items: end;*/
+/*}*/
+
+
+
+/*div {*/
+/*    flex-direction: end;*/
+
+/*}*/
+/*.three div {*/
+/*    flex-direction: row;*/
+/*    justify-content: end;*/
+/*}*/
+
 /* Test moet naar het midden */
+
 form {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    margin: 20px 300px;
+    padding: 50px;
+    position: relative;
+
 }
 
+/*div {*/
+
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+
+/*    position: relative;*/
+/*}*/
+
+
+/*}*/
+
+/*.five {*/
+
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    align-items: stretch;*/
+/*}*/
+
 .five {
-    display: flex;
+    flex-grow: 4;
+    display: inline-block;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+article {
+    display: inline-block;
+    width: 360px;
 }
